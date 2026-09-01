@@ -543,6 +543,27 @@ A stack foi Python com Django no back-end, PostgreSQL como Data Warehouse, Vue.j
             No front-end, implementei a exportação para Excel em todas as páginas analíticas do sistema — Dashboard, Consolidado, Horas Técnicas, Materiais e Orçamento — integrando a biblioteca <code>xlsx</code> ao projeto. Também corrigi o exportador CSV existente, que apresentava inconsistências na geração dos arquivos. É uma funcionalidade que parece simples, mas que é o que permite ao gestor levar o dado do sistema para dentro do processo decisório dele.
         </p>
 </details>
+<br>
+
+<details>
+    <summary><b>Fluxo de Qualidade do projeto (DevOps)</b></summary><br>
+        <p>
+            Além das entregas de código, fui responsável pelo fluxo de <b>Qualidade de Software</b> do projeto: definir os critérios que um trabalho precisava cumprir para ser considerado pronto e garantir que eles fossem aplicados de forma consistente ao longo de todas as sprints. Desenhei o fluxo completo, do refinamento da User Story pelo P.O. até o fechamento da sprint, mapeando onde cada verificação entra.
+        </p>
+        <p>
+            Do lado técnico, os pontos de controle foram: <b>Pull Request com Code Review</b> obrigatório, para garantir qualidade e consistência do código; formatação padronizada com <b>Black</b>; e <b>testes unitários</b>, tudo validado automaticamente no fluxo de CI. O objetivo era assegurar que o sistema funcionasse corretamente tanto em nível de unidade isolada quanto em fluxos completos de usuário. Na prática, cada Pull Request aberto no projeto dispara um pipeline no GitHub Actions que encadeia lint e formatação (Ruff e Black), testes unitários com relatório de cobertura, testes de integração contra um PostgreSQL real, smoke test da aplicação e teste de carga com k6 antes de liberar o merge.
+        </p>
+        <p>
+            Como camada de acompanhamento, usamos o <b>SonarQube</b> para centralizar as métricas de qualidade — cobertura, duplicidade e vulnerabilidades — sinalizando os pontos críticos que exigiam maior atenção em vez de deixá-los diluídos entre os Pull Requests.
+        </p>
+        <p>
+            Também participei do ramo de <b>Qualidade de Processo</b>, conduzido junto ao Scrum Master: dailies com registro em ata, weeklies às quintas-feiras para alinhamento com S.M. e P.O., e acompanhamento de burndown, board e métricas de tempo no Jira — consultadas também via API — para identificar bloqueios antes que virassem gargalos. Toda a documentação, incluindo as atas, ficou centralizada no Confluence.
+        </p>
+        <br>
+        <div align="center">
+        <img src="assets/fluxo-qualidade.png" alt="Fluxo de qualidade do projeto SCAR" width="800">
+        </div>
+</details>
 
 ### Aprendizados
 
@@ -580,9 +601,17 @@ A stack foi Python com Django no back-end, PostgreSQL como Data Warehouse, Vue.j
 
 - Exportação de Relatórios: geração de arquivos XLSX e CSV a partir dos dados do sistema.
 
-- Docker e GitHub Actions: containerização e integração contínua.
+- Docker e GitHub Actions: containerização e pipeline de CI com lint, testes, smoke test e teste de carga.
 
-- Code Review: contribuição exclusivamente via Pull Request, com revisão da equipe.
+- Code Review: contribuição exclusivamente via Pull Request, com critérios definidos de qualidade e consistência de código.
+
+- Testes Automatizados: testes unitários e de integração com relatório de cobertura validados no fluxo de CI.
+
+- SonarQube: acompanhamento centralizado de cobertura, duplicidade e vulnerabilidades.
+
+- Padronização de Código: formatação e lint com Black e Ruff.
+
+- Jira e Confluence: acompanhamento de burndown e métricas de tempo, inclusive via API, e documentação das cerimônias.
 
 #### <b>Soft Skills</b>
 
@@ -601,6 +630,10 @@ A stack foi Python com Django no back-end, PostgreSQL como Data Warehouse, Vue.j
 - Atenção ao detalhe: identificação e correção de erros sutis, como colunas de timestamp e filtros de data.
 
 - Iniciativa: construção da fonte de dados em API em vez de ler os CSVs direto, para que o pipeline fosse desenvolvido e testado contra uma ingestão HTTP de verdade.
+
+- Zelo pela qualidade: definição e defesa de critérios objetivos de qualidade, sustentando o padrão do time ao longo de todas as sprints.
+
+- Melhoria contínua: leitura de métricas de processo para antecipar bloqueios antes que virassem gargalos.
 
 ## 6º - Semestre 2026 - 2
 

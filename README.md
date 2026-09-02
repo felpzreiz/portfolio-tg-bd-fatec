@@ -33,17 +33,15 @@
 
 ## Descrição 
 
-Meu nome é Felipe Reis, tenho 21 anos e sou analista de dados júnior. Atualmente trabalho com Python, SQL, PySpark e Pandas, atuando na análise, manipulação e organização de dados para gerar relatórios e soluções consistentes.
+Atualmente, estou no último semestre do curso de Tecnologia em Banco de Dados pela FATEC São José dos Campos – Prof. Jessen Vidal.
 
-Minha trajetória na área de tecnologia começou no início de 2024, na faculdade FATEC Jessen Vidal, de São José dos Campos, e desde então venho construindo experiência em diferentes pilares do ecossistema de dados e de desenvolvimento de software. No dia a dia, é comum trabalhar com processamento distribuído, automação, pipelines e boas práticas de modelagem e armazenamento.
+Minha trajetória na área de tecnologia começou em 2024, durante a graduação, e desde então venho construindo experiência na área de dados. Atualmente, atuo como **Analista de Dados** na Quero Educação, trabalhando principalmente com Python, SQL, PySpark e Pandas em atividades de modelagem, processamento e análise de dados. No dia a dia, desenvolvo soluções que vão desde relatórios e indicadores para acompanhamento de KPIs até modelos preditivos, análises estatísticas e experimentos voltados à avaliação de hipóteses e estratégias de precificação.
 
-Nos meus planos futuros, busco me aprofundar em áreas de análise, engenharia e ciência de dados, além de evoluir continuamente em desenvolvimento de software, estudando Java, Spring Boot, Vue.js, JavaScript, e também aprimorando meus conhecimentos em programação e arquitetura de bancos de dados.
+Ao longo da graduação, desenvolvi uma base em modelagem, implementação e administração de bancos de dados, engenharia de software e desenvolvimento de aplicações. Também tive contato com diferentes etapas do ciclo de dados, incluindo processamento, armazenamento, integração e análise.
 
-Durante o curso de Tecnologia em Banco de Dados foram desenvolvidas atividades e projetos com foco na modelagem, implementação e administração de sistemas de dados, bem como práticas relacionadas à engenharia de software, contemplando a aplicação de linguagens de programação, metodologias de desenvolvimento e a utilização de metodologias ágeis.
+Um dos principais diferenciais da formação foi a Aprendizagem por Projetos Integrados (API), que permitiu aplicar os conhecimentos adquiridos em projetos desenvolvidos para demandas reais de empresas de tecnologia. Esses projetos foram conduzidos utilizando Scrum, com sprints de três semanas e participação nas principais cerimônias e responsabilidades do framework, proporcionando uma experiência prática próxima à dinâmica do mercado.
 
-O decorrer do tecnólogo não se restringiu às aulas teóricas e aos laboratórios práticos, sendo orientado também pela metodologia de API (Aprendizagem por Projetos Integrados), por meio da qual foram desenvolvidos projetos aplicados a demandas reais de empresas de tecnologia. Essa abordagem possibilitou a integração entre teoria e prática, promovendo a vivência em situações que simulam o ambiente profissional, favorecendo o trabalho em equipe, a adoção de boas práticas de desenvolvimento e a busca por soluções inovadoras para problemas concretos.
-
-Todos os projetos foram desenvolvidos com a metodologia **Scrum**, com os papéis de Product Owner, Scrum Master e Time de Desenvolvimento distribuídos entre os integrantes, sprints de três semanas e as cerimônias de planning, daily, review e retrospectiva.
+Profissionalmente, busco consolidar uma base sólida em Engenharia de Dados, Analytics Engineering e Data Science, enquanto direciono minha especialização para Estatística e análise experimental. Meu objetivo é aprofundar meus conhecimentos em métodos estatísticos para testagem de hipóteses e modelagem analítica e preditiva.
 
 ## Visão Geral dos Projetos
 
@@ -121,8 +119,6 @@ O desenvolvimento aconteceu em quatro sprints. Começamos escrevendo os algoritm
 - HTML e CSS: construção da interface web da calculadora.
 
 - Matemática Aplicada: conversão entre bases numéricas e fórmulas de juros simples e compostos.
-
-- Testes: criação de casos de teste para validar resultados antes da entrega.
 
 - Git e GitHub: versionamento, organização de repositório e histórico de commits.
 
@@ -224,13 +220,9 @@ O produto foi desenvolvido em Java, com interface gráfica em JavaFX (Scene Buil
 
 - DAO Pattern: implementação de CRUD com separação de responsabilidades.
 
-- Arquitetura em Camadas: estruturação do projeto para manter organização e escalabilidade.
-
 - Importação de Dados: leitura, parse e validação de arquivos CSV.
 
 - Modelagem de Dados: construção do modelo DER e das restrições de integridade.
-
-- Git Flow: branch por sprint e integração via Pull Request.
 
 - Jira e Miro: gestão de backlog e de tarefas da equipe.
 
@@ -249,8 +241,6 @@ O produto foi desenvolvido em Java, com interface gráfica em JavaFX (Scene Buil
 - Resolução de problemas: identificação e superação de impedimentos técnicos.
 
 - Adaptabilidade: ajustes de planejamento conforme o andamento do projeto.
-
-- Empatia com o usuário: atenção às rotinas de professor e aluno ao desenhar cada fluxo.
 
 ## 3º - Semestre 2025 - 1
 
@@ -461,8 +451,6 @@ O back-end foi construído em Java com Spring Boot e o front-end em Vue.js com T
 
 - Autonomia: condução de funcionalidades de ponta a ponta, do banco ao gráfico.
 
-- Ownership: responsabilidade pela qualidade do que foi entregue, incluindo correção dos próprios erros.
-
 - Adaptabilidade: evolução do modelo de cálculo a cada sprint conforme novos dados e feedbacks.
 
 ## 5º - Semestre 2026 - 1
@@ -589,9 +577,9 @@ A stack foi Python com Django no back-end, PostgreSQL como Data Warehouse, Vue.j
 
 - AWS S3: armazenamento de objetos em nuvem e acesso programático via boto3.
 
-- Parquet: formato colunar com compressão Snappy para armazenamento analítico.
+- Parquet: formato colunar para armazenamento analítico.
 
-- pandas: conversão e manipulação dos datasets na migração para o S3.
+- Pandas: conversão e manipulação dos datasets na migração para o S3.
 
 - Integração via API: construção da fonte de dados e consumo dela no pipeline de ingestão.
 
@@ -602,8 +590,6 @@ A stack foi Python com Django no back-end, PostgreSQL como Data Warehouse, Vue.j
 - Exportação de Relatórios: geração de arquivos XLSX e CSV a partir dos dados do sistema.
 
 - Docker e GitHub Actions: containerização e pipeline de CI com lint, testes, smoke test e teste de carga.
-
-- Code Review: contribuição exclusivamente via Pull Request, com critérios definidos de qualidade e consistência de código.
 
 - Testes Automatizados: testes unitários e de integração com relatório de cobertura validados no fluxo de CI.
 
